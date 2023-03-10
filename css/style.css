@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+/*Resets*/
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+ 
+li, a, button {
+    font-family: "Roboto Slab" sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(68, 50, 68);
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: darkgray;
+}
+
+#header {
+    height: 70px;
+}
+
+#services,
+#projects,
+#about {
+    height: 700px;
+}
+
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.sectionStyle-top {
+    background-color: rgb(184, 135, 90 , .75);
+    width: 100%;
+} 
+
+.sectionStyle-middle {
+    background-color: maroon;
+    width: 100%;
+} 
+
+
+.sectionStyle-bottom {
+    background-color: teal;
+    width: 100%;
+} 
+
+
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    width: 15%;
+    background-color: whitesmoke;
+}
+
+
+
+main p {
+    display: flex;
+    width: auto;
+    text-align: justify;
+    color: white;
+    font-weight: bold;
+}
+
+
+.logo {
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+    border-radius: 50px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    align-items: flex-start;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:teal
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+
+
+.scroll {
+    min-height: 700px;
+    
+}
+
+.footer { 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(18, 45, 70, .5);
+    color: white;
+    border-radius: 5px;
+}
